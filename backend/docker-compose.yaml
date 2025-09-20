@@ -1,0 +1,7 @@
+services:
+  analytics-demo-backend:
+    container_name: analytics-demo-backend
+    build: .
+    restart: always
+    env_file:
+      - .env
